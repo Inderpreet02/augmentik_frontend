@@ -10,7 +10,7 @@ const Sidebar = () => {
   useEffect(() => {
     const getAllUsers = async () => {
       try {
-        const data = await axios.get('http://localhost:8080/api/user')
+        const data = await axios.get('https://augmentik-backend.vercel.app/api/user')
 
         // updating the state
         setUsers(data.data);

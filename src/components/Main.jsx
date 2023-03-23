@@ -16,7 +16,7 @@ const Main = () => {
         // Checks if the values are empty or not
         if(username !== "" && email !== ""){
             try {
-                const updatedUser = await axios.put(`http://localhost:8080/api/user/${id}`,
+                const updatedUser = await axios.put(`https://augmentik-backend.vercel.app/api/user/${id}`,
                     {
                         username: username,
                         email: email
@@ -41,7 +41,7 @@ const Main = () => {
         e.preventDefault();
         // delete the user        
         try{
-            const deletedUser = await axios.delete(`http://localhost:8080/api/user/${id}`)
+            const deletedUser = await axios.delete(`https://augmentik-backend.vercel.app/api/user/${id}`)
 
             if(deletedUser){
                 window.location.replace('/admin/create');
@@ -56,7 +56,7 @@ const Main = () => {
         // Getting data for the selected user determined by the current id
         const getUserData = async () => {
             try {
-                const user = await axios.get(`http://localhost:8080/api/user/find/${id}`)
+                const user = await axios.get(`https://augmentik-backend.vercel.app/api/user/find/${id}`)
                 setUser(user.data);
                 
             } catch (error) {
