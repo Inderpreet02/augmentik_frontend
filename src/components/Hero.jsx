@@ -1,8 +1,8 @@
 import React from 'react'
 import './Hero.css'
-import compass from '../assets/vector.svg'
+import compass from '../assets/Vector.png'
 import mainHero from '../assets/illustration.png'
-import map from '../assets/map.png'
+// import map from '../assets/map.png'
 import Btn from './Btn'
 const Hero = () => {
   return (
