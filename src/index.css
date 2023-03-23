@@ -1,0 +1,33 @@
+:root{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  --clr-bg: #F5F5F5;
+  --clr-text-blue: #3282AD;
+  --clr-text-dark-grey: #3A3A3A;
+  --clr-text-light-grey: #79747E;
+
+  font-size: 16px;
+  font-style: normal;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  line-height: 1em;
+
+  background-color: var(--clr-bg);
+}
+
+html, body{
+  padding: 0;
+  margin: 0;
+
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}

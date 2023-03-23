@@ -1,0 +1,54 @@
+.main {
+  flex: 3;
+  padding: 4rem;
+}
+
+.main__head {
+  font-size: 3em;
+}
+
+.main__container {
+  margin-top: 5rem;
+}
+
+.main__current {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.main__edit {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.main__inp {
+  max-width: 300px;
+  padding: 0.5rem 1rem;
+}
+
+.main__btn {
+  width: fit-content;
+  outline: none;
+  padding: 1rem 2rem;
+  background-color: var(--clr-text-blue);
+  border: none;
+  color: #fff;
+  font-size: 1.2em;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.main__btn2 {
+  cursor: pointer;
+  width: fit-content;
+  outline: none;
+  padding: 1rem 2rem;
+  background-color: red;
+  border: none;
+  color: #fff;
+  font-size: 1.2em;
+  border-radius: 0.3rem;
+}

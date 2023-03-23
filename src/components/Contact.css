@@ -1,0 +1,40 @@
+.contact{
+    margin-top: 4rem;
+    padding: 2rem;
+    background-color: var(--clr-text-blue);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 1rem;
+}
+
+.contact__btn{
+    box-sizing: border-box;
+}
+
+.contact__img{
+    height: 100%;
+}
+
+.contact__title{
+    font-size: 2em;
+    line-height: 1em;
+    margin-bottom: 1rem;
+    color: var(--clr-bg);
+    font-weight: 700;
+}
+
+.contact__text{
+    color: var(--clr-bg);
+}
+
+@media screen and (max-width: 1200px) {
+    .contact__img{
+        display: none;
+    }
+
+    .contact{
+        padding: 5rem;
+    }
+}

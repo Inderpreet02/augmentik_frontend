@@ -1,0 +1,25 @@
+.isl{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.isl__heading{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.isl__text{
+    color: var(--clr-text-light-grey);
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.card__gallery{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5rem 1.5rem;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,50 @@
+.sidebar{
+    flex: 1;
+    min-width: 300px;
+    height: 100vh;
+    padding: 1rem;
+    background-color: var(--clr-text-blue);
+    box-sizing: border-box;
+}
+
+.side__head{
+    font-size: 3em;
+}
+
+.side__container{
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    /* background-color: rebeccapurple; */
+}
+
+.side__item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    color: #111;
+    text-transform: capitalize;
+    font-size: 1.5em;
+}
+.side__admin{
+    padding: 0.2rem 0.5rem;
+    width: fit-content;
+    border-radius: 2rem;
+    color: rgb(0, 255, 0);
+    border: 2px solid rgb(0, 255, 0);
+    font-size: 0.5em;
+}
+
+.side__notAdmin{
+    font-size: 0.5em;
+    padding: 0.2rem 0.5rem;
+    width: fit-content;
+    border-radius: 2rem;
+    border: 2px solid red;
+    color: red;
+}

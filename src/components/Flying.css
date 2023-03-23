@@ -1,0 +1,38 @@
+.fly{
+    /* shadow effect-blue */
+    box-shadow: 0px 4px 25px rgba(141, 198, 211, 0.15);
+    border-radius: 16px;
+    background-color: #fff;
+}
+
+.fly__container{
+    padding: 1.5rem 1.5rem;
+}
+
+.fly__head{
+    font-size: 1.7rem;
+}
+
+.fly__inputs{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.fly__btns{
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 900px){
+    .fly__inputs{
+        flex-direction: column;
+    }
+}
